@@ -9,10 +9,10 @@
 #！ @docs https://aurora.tridiamond.tech/guide/configuration.html
 #! ---------------------------------------------------------------
 site:
-  subtitle: Aurora's Blog
-  author: Aurora
-  nick: Auroral UI
-  description:
+  subtitle: zhangshengshan's Blog
+  author: ZhangShengShan
+  nick: Zhangshengshan UI
+  description: 海纳百川 有容乃大
   link: '/'
   language: en
   multi_language: true
@@ -48,6 +48,14 @@ menu:
   Tags: true
   Archives: true
 
+  # 挂外部链接
+  # Aurora:
+    # name: 'MyRepo'
+    # path: 'https://github.com/Aurora/hexo-theme-Aurora'
+
+  Email:
+    name: 'Mail Me'
+    path: 'mailto:alphabetago@163.com'
 #! ---------------------------------------------------------------
 #! Theme Config
 #! @docs https://aurora.tridiamond.tech/guide/theme.html
