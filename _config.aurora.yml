@@ -9,15 +9,15 @@
 #！ @docs https://aurora.tridiamond.tech/guide/configuration.html
 #! ---------------------------------------------------------------
 site:
-  subtitle: zhangshengshan's Blog
-  author: ZhangShengShan
-  nick: Zhangshengshan UI
+  subtitle: 艾木简 安斤涅尔's Blog
+  author: 艾木简 安斤涅尔
+  nick: 艾木简 安斤涅尔
   description: 海纳百川 有容乃大
   link: '/'
   language: en
   multi_language: true
   logo: https://img-blog.csdnimg.cn/20210313122054101.png
-  avatar: https://cdn.jsdelivr.net/gh/zhangshengshan/avatars@master/20200628150416.jpg
+  avatar: https://cdn.jsdelivr.net/gh/zhangshengshan/avatars@master/Snipaste_2023-06-01_15-43-21.png
   beian:
     number: ''
     link: ''
@@ -48,6 +48,19 @@ menu:
   Tags: true
   Archives: true
 
+  projects:
+      name: 'Projects'
+      children:
+        zss1:
+          name: 'zss1'
+          path: '/page/zss1'
+        zss2:
+          name: 'zss2'
+          path: '/page/zss2'
+        zss3:
+          name: 'zss3' 
+          path: '/page/zss3'
+
   # 挂外部链接
   # Aurora:
     # name: 'MyRepo'
@@ -56,13 +69,15 @@ menu:
   Email:
     name: 'Mail Me'
     path: 'mailto:alphabetago@163.com'
+
 #! ---------------------------------------------------------------
 #! Theme Config
 #! @docs https://aurora.tridiamond.tech/guide/theme.html
 #! ---------------------------------------------------------------
+
 theme:
   dark_mode: true
-  profile_shape: diamond # support `circle`, `diamond`, `rounded`
+  profile_shape: rounded # support `circle`, `diamond`, `rounded`
   feature: true
   gradient:
     color_1: '#24c6dc'
@@ -109,25 +124,25 @@ site_meta:
 
 # For local development only!
 gitalk:
-  enable: true
-  autoExpand: true
-  clientID: ''
-  clientSecret: ''
-  repo: 'dev-blog-comments'
-  owner: 'TriDiamond'
-  admin: ['TriDiamond']
-  id: uid
+  enable: false
+  autoExpand: false
+  clientID: 'b7840f07289df60d4177'
+  clientSecret: '38aa547f7ed1269c47e6826ac75d1d76611e1fcb'
+  repo: 'gitalk'
+  owner: 'zhangshengshan'
+  admin: ['zhangshengshan']
+  id: myid
   language: en
   distractionFreeMode: true
-  recentComment: true
+  recentComment: false
   proxy: ''
 
 # Valine comment plugin (recommended!)
 # see https://valine.js.org/quickstart.html
 valine:
-  enable: false
-  app_id:
-  app_key:
+  enable: true
+  app_id: 'zpl0GqbmS5zLkPkgty3pJ9SL-gzGzoHsz'
+  app_key: 'hAO43n9TlMtryYHyIa4Niyxe'
   avatar: ''
   placeholder: Leave your thoughts behind~
   visitor: true
@@ -135,7 +150,7 @@ valine:
   avatarForce: false
   meta: ['nick', 'mail']
   requiredFields: []
-  admin: 'TriDiamond'
+  admin: 'alphabetago'
   recentComment: true
 
 # Enable Busuanzi statistic plugin
@@ -146,8 +161,8 @@ busuanzi:
 copy_protection:
   enable: true
   author:
-    cn: 作者
-    en: Author
+    cn: 艾木简 安斤涅尔
+    en: M-
   link:
     cn: 本文来自于
     en: Article is from
@@ -172,3 +187,6 @@ aurora_bot:
 injects:
   scripts:
   css:
+
+#! https://ZhangShengShan.github.io
+#! https://MachineLearning.github.io
