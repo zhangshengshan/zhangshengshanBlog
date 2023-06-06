@@ -6,7 +6,7 @@ tags: vim
 
 # MY CONFIG FOR SPACEVIM
 
-## init.toml
+## BASIC CONFIG 
 ```
 #=============================================================================
 # basic.toml --- basic configuration example for SpaceVim
