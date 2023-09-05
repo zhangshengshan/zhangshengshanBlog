@@ -1,7 +1,7 @@
 ---
 title: MyNew
 date: 2023-09-05 22:36:11
-tags:
+tags: BB
 ---
 
 
